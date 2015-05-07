@@ -10,3 +10,18 @@ ouvre une fenêtre pour sélectionner quoi mettre dans la version (indique fichi
 
 Mettre à jour github
 Puis bouton push ou git push
+
+Librairie Ocaml
+http://caml.inria.fr/pub/docs/manual-ocaml/libref/index.html
+
+Compiler
+ocamlc graphics.cma unix.cma graphismes.ml -o graphismes.exe
+
+Executer
+./graphismes.exe
+
+Compiler et exécuter
+ocamlbuild graphismes.byte --
+
+Doc
+caml.inria.fr/pub/docs/manual-ocaml/index.html
